@@ -108,8 +108,23 @@ button:hover{
 
 
  @media (max-width: 375px) {
-    section{
-        width: 300px;
+    section {
+        width: 280px;
+        padding: 15px;
     }
-}   
+
+    .description h1 {
+        font-size: 18px;
+    }
+
+    .profile-quote {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+
 
